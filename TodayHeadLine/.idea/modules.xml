@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TodayHeadLine.iml" filepath="$PROJECT_DIR$/TodayHeadLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitmapimagelibary/bitmapimagelibary.iml" filepath="$PROJECT_DIR$/bitmapimagelibary/bitmapimagelibary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/draglibary/draglibary.iml" filepath="$PROJECT_DIR$/draglibary/draglibary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenulibrary/slidingmenulibrary.iml" filepath="$PROJECT_DIR$/slidingmenulibrary/slidingmenulibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xlistviewlibrary/xlistviewlibrary.iml" filepath="$PROJECT_DIR$/xlistviewlibrary/xlistviewlibrary.iml" />
+    </modules>
+  </component>
+</project>

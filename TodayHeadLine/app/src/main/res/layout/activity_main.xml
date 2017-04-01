@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+  android:background="?attr/mainBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawei.todayheadline.activity.MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/include" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:orientation="horizontal">
+     <android.support.design.widget.TabLayout
+         android:id="@+id/tab"
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:layout_height="50dp"
+         app:tabIndicatorColor="@color/red"
+         app:tabMode="scrollable"
+         app:tabSelectedTextColor="@color/red"
+         app:tabTextColor="@color/hei">
+
+     </android.support.design.widget.TabLayout>
+         <ImageView
+             android:id="@+id/jia"
+             android:src="@mipmap/add_channel_titlbar_follow_normal"
+             android:layout_width="wrap_content"
+             android:layout_height="50dp" />
+ </LinearLayout>
+       
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

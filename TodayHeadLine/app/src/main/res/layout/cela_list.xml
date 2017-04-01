@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="?attr/mainBackground"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+    <LinearLayout
+
+      android:id="@+id/lin_log"
+        android:paddingTop="10dp"
+        android:background="#F4F4F5"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:background="#F4F4F5"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_shouji"
+                android:src="@mipmap/cellphone_leftdrawer_normal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <ImageView
+
+                android:id="@+id/qq_log"
+                android:src="@mipmap/ic_qq_login_normal_night"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@mipmap/sina_leftdrawer_normal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_log"
+            android:textSize="15dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="更多登录方式>"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lin_xinxi"
+            android:visibility="gone"
+            android:paddingTop="10dp"
+            android:background="#F4F4F5"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+           <ImageView
+               android:id="@+id/te_image"
+               android:layout_marginLeft="60dp"
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@mipmap/person4"/>
+            <LinearLayout
+
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/te_name"
+                    android:textSize="25dp"
+                    android:textColor="@color/hei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="追风中Zzz"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/te_xiaoxi"
+                        android:drawableLeft="@mipmap/details_report_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="消息"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text_dongtai"
+                android:drawableLeft="@mipmap/dynamicicon_leftdrawer"
+                android:text="好友动态"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_huati"
+                android:text="我的话题"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:drawableLeft="@mipmap/topicicon_leftdrawer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_shoucang"
+                android:text="收藏"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:drawableLeft="@mipmap/ic_action_favor_on_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_huodong"
+                android:text="活动"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:drawableLeft="@mipmap/activityicon_leftdrawer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_shopping"
+                android:text="商城"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:drawableLeft="@mipmap/sellicon_leftdrawer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_fankui"
+                android:text="反馈"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:drawableLeft="@mipmap/feedbackicon_leftdrawer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_baoliao"
+                android:text="我要爆料"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:drawableLeft="@mipmap/dynamicicon_leftdrawer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:background="#B2B2B2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/cela_lixian"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:text="离线下载"
+          android:gravity="center"
+          android:drawableTop="@mipmap/downloadicon_leftdrawer_pressed_night"
+          android:layout_height="wrap_content" />
+        <CheckBox
+            android:button="@null"
+            android:id="@+id/image_yejian"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="模式"
+            android:gravity="center"
+            android:drawableTop="@drawable/yejianmoshi"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/te_she"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="设置"
+            android:gravity="center"
+            android:drawableTop="@mipmap/settingicon_leftdrawer_normal"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
